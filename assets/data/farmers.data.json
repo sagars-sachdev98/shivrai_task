@@ -1,0 +1,82 @@
+[
+    {
+        "fullName": "shivam goswami",
+        "gender": "Male",
+        "address": "12/4, rajur bahula, Nashik, Maharashtra",
+        "plotArea": 1.2,
+        "crop": "Grapes",
+        "variety": "",
+        "plantingDate": "2022-02-06T13:30:00.000Z",
+        "ageOfCrop": "2022-02-16T13:30:00.000Z"
+    },
+    {
+        "fullName": "ravi bohir",
+        "gender": "Male",
+        "address": "16/4, rajur bahula, Nashik, Maharashtra",
+        "plotArea": 1.6,
+        "crop": "Onion",
+        "variety": "",
+        "plantingDate": "2022-02-09T13:30:00.000Z",
+        "ageOfCrop": "2022-02-19T13:30:00.000Z"
+    },
+    {
+        "fullName": "aayush mahatre",
+        "gender": "Male",
+        "address": "11/4, rajur bahula, Nashik, Maharashtra",
+        "plotArea": 1.4,
+        "crop": "Mangoes",
+        "variety": "",
+        "plantingDate": "2022-02-06T13:30:00.000Z",
+        "ageOfCrop": "2022-02-16T13:30:00.000Z"
+    },
+    {
+        "fullName": "sagar sachdev",
+        "gender": "Male",
+        "address": "19/4, rajur bahula, Nashik, Maharashtra",
+        "plotArea": 2,
+        "crop": "Onion",
+        "variety": "",
+        "plantingDate": "2022-02-06T13:30:00.000Z",
+        "ageOfCrop": "2022-02-16T13:30:00.000Z"
+    },
+    {
+        "fullName": "anil patil",
+        "gender": "Male",
+        "address": "1/4, rajur bahula, Nashik, Maharashtra",
+        "plotArea": 1.2,
+        "crop": "Mangoes",
+        "variety": "",
+        "plantingDate": "2022-02-06T13:30:00.000Z",
+        "ageOfCrop": "2022-02-16T13:30:00.000Z"
+    },
+    {
+        "fullName": "shivam goswami",
+        "gender": "Male",
+        "address": "12/4, rajur bahula, Nashik, Maharashtra",
+        "plotArea": 1.2,
+        "crop": "Mangoes",
+        "variety": "",
+        "plantingDate": "2022-02-06T13:30:00.000Z",
+        "ageOfCrop": "2022-02-16T13:30:00.000Z"
+    },
+    {
+        "fullName": "shivam goswami",
+        "gender": "Male",
+        "address": "12/4, rajur bahula, Nashik, Maharashtra",
+        "plotArea": 1.2,
+        "crop": "Grapes",
+        "variety": "",
+        "plantingDate": "2022-02-06T13:30:00.000Z",
+        "ageOfCrop": "2022-02-16T13:30:00.000Z"
+    },
+    {
+        "fullName": "shivam goswami",
+        "gender": "Male",
+        "address": "12/4, rajur bahula, Nashik, Maharashtra",
+        "plotArea": 1.2,
+        "crop": "Onion",
+        "variety": "",
+        "plantingDate": "2022-02-06T13:30:00.000Z",
+        "ageOfCrop": "2022-02-16T13:30:00.000Z"
+    }
+]
