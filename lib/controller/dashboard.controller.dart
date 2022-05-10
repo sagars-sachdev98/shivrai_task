@@ -6,7 +6,7 @@ import 'package:shivrai_task/common/file_helper.dart';
 import 'package:shivrai_task/common/shared_ui.dart';
 import 'package:shivrai_task/model/farmers.model.dart';
 import 'package:shivrai_task/view/farmersForm.view.dart';
-
+//dashboard controller i.e. used to manage business logic
 class DashboardController extends GetxController {
   final GlobalKey<FormState> farmersFormKey = GlobalKey<FormState>();
   FarmersModel farmer = FarmersModel();

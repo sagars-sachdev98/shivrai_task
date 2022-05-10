@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 
+//common ui class
 class SharedUi {
+  //textfield decoration
   InputDecoration sharedDecoration(
       {required String hintText, required String labelText}) {
     return InputDecoration(
@@ -16,6 +18,7 @@ class SharedUi {
         ));
   }
 
+//Toast function
   showToast(String message, {bool isError = false}) {
     Fluttertoast.showToast(
         msg: message,
@@ -28,6 +31,7 @@ class SharedUi {
         fontSize: 16.0);
   }
 
+//common vaildation
   validation(dynamic value, String message) {
     if (value == null || value == '') {
       return message;

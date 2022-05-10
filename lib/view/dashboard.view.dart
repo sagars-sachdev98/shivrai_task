@@ -5,6 +5,7 @@ import 'package:shivrai_task/controller/dashboard.controller.dart';
 import 'package:shivrai_task/model/farmers.model.dart';
 import 'package:shivrai_task/view/farmersForm.view.dart';
 
+// dashboard ui i.e. list of farmers
 class DashBoardView extends StatelessWidget {
   DashBoardView({Key? key}) : super(key: key);
   final DashboardController dashboardController =
@@ -46,6 +47,7 @@ class DashBoardView extends StatelessWidget {
     });
   }
 
+//farmers ui card
   farmersCard(BuildContext context, FarmersModel farmer) {
     return Padding(
       padding: const EdgeInsets.symmetric(horizontal: 6, vertical: 2),
@@ -240,6 +242,7 @@ class DashBoardView extends StatelessWidget {
     );
   }
 
+//farmers form bottomsheet
   farmerFormDialog(BuildContext context) {
     return showModalBottomSheet<void>(
         context: context,

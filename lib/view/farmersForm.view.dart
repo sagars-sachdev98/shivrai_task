@@ -5,12 +5,14 @@ import 'package:shivrai_task/common/shared_ui.dart';
 import 'package:shivrai_task/controller/dashboard.controller.dart';
 import 'package:syncfusion_flutter_datepicker/datepicker.dart';
 
+//crops object
 class Crop {
   String? cropName;
   int? ageOfCrop;
   Crop({this.cropName, this.ageOfCrop});
 }
 
+//farmers form ui
 class FarmersForm extends StatelessWidget {
   FarmersForm({Key? key}) : super(key: key);
   final List gender = ["Male", "Female", "Other"];
@@ -285,6 +287,7 @@ class FarmersForm extends StatelessWidget {
     );
   }
 
+//gender radio button
   Row addRadioButton(BuildContext context, int btnValue, String title) {
     return Row(
       mainAxisAlignment: MainAxisAlignment.start,
@@ -307,6 +310,7 @@ class FarmersForm extends StatelessWidget {
     );
   }
 
+//planting datepicker
   datePicker(BuildContext context) {
     return showDialog<void>(
         context: context,

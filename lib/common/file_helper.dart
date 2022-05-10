@@ -2,7 +2,7 @@ import 'dart:io';
 import 'dart:convert';
 
 import 'package:flutter/services.dart' show rootBundle;
-
+//get the data from asset
 class FileHelper {
   static Future<dynamic> readDataFrom<T>(String filePath) async {
     var str = await rootBundle.loadString('assets/' + filePath);

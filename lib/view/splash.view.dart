@@ -2,6 +2,7 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
+//splash screen
 class SplashView extends StatefulWidget {
   final bool? isMobile;
   final bool? isTab;
@@ -18,6 +19,7 @@ class _SplashViewState extends State<SplashView> {
     super.initState();
   }
 
+//this function can be further used for decision  making
   checkForRoute() async {
     gotoDashboard();
   }
@@ -40,7 +42,6 @@ class _SplashViewState extends State<SplashView> {
           // mainAxisSize: MainAxisSize.min,
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-          
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
